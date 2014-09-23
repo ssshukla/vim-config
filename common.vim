@@ -22,3 +22,11 @@ set statusline=%F
 
 " show line numbers
 :set number
+
+" YouCompleteMe configs
+" Complete options (disable preview scratch window, longest removed to aways show menu)
+set completeopt=menu,menuone
+" enter key will simply select the highlighted menu item, just as <C-Y> does
+:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" better colors for the popup menu
+highlight Pmenu ctermfg=255 ctermbg=244 guifg=#ffffff guibg=#808080

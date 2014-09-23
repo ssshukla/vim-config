@@ -7,6 +7,7 @@ colorscheme monokai
 
 " Load more vim configs
 so ~/.vim/common.vim
+so ~/.vim/jedi.vim
 
 " Enable omnicomplete
 filetype plugin on

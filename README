@@ -7,8 +7,12 @@ Add the following symlinks
    ~/.gvimrc -> vim-config/vimrc
    ~/.vim -> vim-config
    ~/.gvim -> vim-config
-Fetch Vundle.vim
+Setup Vundle.vim
    $ cd vim-config/bundle
    $ git clone https://github.com/gmarik/Vundle.vim.git Vundle.vim
 Start vim and enter following command
    :PluginInstall
+Setup YouCompleteMe
+   $ sudo apt-get install build-essential cmake python-dev
+   $ cd vm-config/bundle/YouCompleteMe
+   $ ./install.sh --clang-completer

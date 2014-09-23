@@ -12,11 +12,14 @@ Plugin 'gmarik/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
+" TODO: Do I really need this?
+Plugin 'tpope/vim-sensible'
+" plugin for highlighting and removing trailing whitespace
+Plugin 'bronson/vim-trailing-whitespace'
 " plugin on commenting
 Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-sensible'
-Plugin 'bronson/vim-trailing-whitespace'
-
+" plugin for Python/C/C++ autocompletion
+Plugin 'Valloric/YouCompleteMe'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
