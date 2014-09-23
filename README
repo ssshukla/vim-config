@@ -3,12 +3,12 @@ Vim config for terminal and GUI.
 FIRST TIME SETUP
 ------------------------------------------------------------------
 Add the following symlinks
-   ~/.vimrc -> vim.git/vimrc
-   ~/.gvimrc -> vim.git/vimrc
-   ~/.vim -> vim.git
-   ~/.gvim -> vim.git
+   ~/.vimrc -> vim-config/vimrc
+   ~/.gvimrc -> vim-config/vimrc
+   ~/.vim -> vim-config
+   ~/.gvim -> vim-config
 Fetch Vundle.vim
-   $ cd vim.git/bundle
+   $ cd vim-config/bundle
    $ git clone https://github.com/gmarik/Vundle.vim.git Vundle.vim
 Start vim and enter following command
    :PluginInstall
