@@ -20,6 +20,8 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'tpope/vim-commentary'
 " plugin for Python/C/C++ autocompletion
 Plugin 'Valloric/YouCompleteMe'
+" plugin for handling buffers"
+Plugin 'jlanzarotta/bufexplorer'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'

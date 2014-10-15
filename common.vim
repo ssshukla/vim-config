@@ -15,13 +15,17 @@ set autochdir
 set tags=.tags;
 
 " add full file path to your existing statusline
-set statusline=%F
+set statusline=%F%=%c/%l\ %P
 
 " map :ls to show list of buffers and enter buffer number to switch to it
 :nnoremap :ls :buffers<CR>:buffer<Space>
 
 " show line numbers
 :set number
+
+" show mouse
+:set nomousehide
+:set mouse=a
 
 " YouCompleteMe configs
 " Complete options (disable preview scratch window, longest removed to aways show menu)
