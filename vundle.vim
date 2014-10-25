@@ -22,6 +22,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'Valloric/YouCompleteMe'
 " plugin for handling buffers"
 Plugin 'jlanzarotta/bufexplorer'
+" plugin for session handling"
+Plugin 'mhinz/vim-startify'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'

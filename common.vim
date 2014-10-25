@@ -27,6 +27,13 @@ set statusline=%F%=%c/%l\ %P
 :set nomousehide
 :set mouse=a
 
+" disable swap file creation
+:set noswapfile
+
+" startify options
+let g:startify_session_persistence = 1
+let g:startify_session_dir = '~/.vim/session'
+
 " YouCompleteMe configs
 " Complete options (disable preview scratch window, longest removed to aways show menu)
 set completeopt=menu,menuone
