@@ -1,5 +1,5 @@
 " set font
-set guifont=Monospace\ 11
+set guifont=Menlo\ Regular:h14
 
 set hlsearch
 
@@ -18,26 +18,30 @@ set tags=.tags;
 set statusline=%F%=%c/%l\ %P
 
 " map :ls to show list of buffers and enter buffer number to switch to it
-:nnoremap :ls :buffers<CR>:buffer<Space>
+nnoremap :ls :buffers<CR>:buffer<Space>
 
 " show line numbers
-:set number
+set number
 
 " show mouse
-:set nomousehide
-:set mouse=a
+set nomousehide
+set mouse=a
 
 " disable swap file creation
-:set noswapfile
+set noswapfile
+
+" better pasting
+set paste
 
 " startify options
 let g:startify_session_persistence = 1
 let g:startify_session_dir = '~/.vim/session'
+let g:startify_list_order = ['sessions', 'bookmarks', 'files']
 
 " YouCompleteMe configs
 " Complete options (disable preview scratch window, longest removed to aways show menu)
-set completeopt=menu,menuone
+"set completeopt=menu,menuone
 " enter key will simply select the highlighted menu item, just as <C-Y> does
-:inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+":inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 " better colors for the popup menu
 highlight Pmenu ctermfg=255 ctermbg=244 guifg=#ffffff guibg=#808080
