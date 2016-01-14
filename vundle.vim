@@ -23,15 +23,18 @@ Plugin 'jlanzarotta/bufexplorer'
 " plugin for session handling"
 Plugin 'mhinz/vim-startify'
 " plugin for Python/C/C++ autocompletion
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 " plugin for clang autocompletion
-Plugin 'Rip-Rip/clang_complete'
+" Plugin 'Rip-Rip/clang_complete'
 " plugin for syntax checking
 Plugin 'scrooloose/syntastic'
 " pluging for status tabline
 Plugin 'bling/vim-airline'
 " plugin for browsing files
 Bundle 'kien/ctrlp.vim'
+" plugins for cscope
+Plugin 'vim-scripts/autoload_cscope.vim'
+Plugin 'steffanc/cscopemaps.vim'
 
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
